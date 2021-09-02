@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MyExpenseTracker.AboutUs"
+             Title="App Details">
+    <ContentPage.Content >
+        <StackLayout BackgroundColor="White" Orientation="Vertical" Spacing="30" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+           
+            <Label Text="**Team 7 Expense Tracker Mobile Application**"
+                          
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                   BackgroundColor="White"   
+                     Margin="20,0,20,0"
+                   />
+            <Label Text="By using this App, we hope you can better manage your wealth !!"
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                   BackgroundColor="White" 
+                    Margin="20,0,20,0"/>
+            <Label Text="Expense Tracker help boosting your finances by helping you build your monthly budget and better manage your expenses "
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                   BackgroundColor="White"  
+                    Margin="20,0,20,0"
+                   />
+            <Label Text="This application is easy to use and is intuitive"
+                   TextColor="Black"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   BackgroundColor="White"  
+                    Margin="20,0,20,0"
+                   
+               
+                   />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage> 
